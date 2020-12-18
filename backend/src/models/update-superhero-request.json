@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "update-superhero",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name", "desc"
+  ],
+  "additionalProperties": true
+}
